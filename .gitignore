@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# env
+.env
+.env.local
+
+# build
+dist
+build
+.next
+
+# logs
+*.log
+
+# prisma
+prisma/dev.db
+
+# macOS
+.DS_Store
+
+.pnpm-store
