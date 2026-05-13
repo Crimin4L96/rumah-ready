@@ -20,7 +20,7 @@ export const loginService = async (
   );
 
   if (!isMatch) {
-    throw new Error("Invalid password");
+    throw new Error(`Invalid password ${isMatch}`);
   }
 
   const token = generateToken({
