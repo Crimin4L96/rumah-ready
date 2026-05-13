@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://your-vercel-app.vercel.app"
+    "https://https://rumah-ready-frontend.vercel.app"
   ]
 }));
 
